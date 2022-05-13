@@ -16,6 +16,7 @@ const Sidebar = () => {
         <div className="menu">
           <div className="details">
             <Icon fill="#ffffff" size={33} svg="twitter" />
+            <strong>Web Threeter</strong>
           </div>
 
           <Link to="/" className="link">

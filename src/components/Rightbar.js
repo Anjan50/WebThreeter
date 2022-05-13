@@ -11,52 +11,52 @@ const Rightbar = () => {
   const trends = [
     {
       img: spaceshooter,
-      text: "Learn how to build a Web3 FPS game using unity...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-space-fps-game/",
+      text: "Learn with WEB3 DAO , Learn for Free No need to pay for overpriced courses.",
+      link: "https://www.learnweb3.io/",
     },
     {
       img: netflix,
-      text: "The fisrt Moralis Project! Let's Netflix and chill...",
-      link: "https://moralis.io/moralis-projects-learn-to-build-a-web3-netflix-clone/",
+      text: "useWeb3 is a platform for developers to explore and learn about Web3",
+      link: "https://www.useweb3.xyz/",
     },
     {
       img: academy,
-      text: "Master DeFi in 2022. Start  at the Moralis Academy...",
-      link: "https://academy.moralis.io/courses/defi-101",
+      text: "largest community learning blockchain education.",
+      link: "https://www.web3.university/",
     },
     {
       img: js,
-      text: "Become a Web3 Developer with just simple JS...",
-      link: "https://academy.moralis.io/all-courses",
+      text: "Learn to code in Web3. Build in less than 60s.",
+      link: "https://openquest.xyz/",
     },
     {
       img: youtube,
       text: "Best youtube channel to learn about Web3...",
-      link: "https://www.youtube.com/channel/UCgWS9Q3P5AxCWyQLT2kQhBw",
+      link: "https://www.youtube.com/c/DappUniversity",
     },
   ];
 
   return (
     <>
       <div className="rightbarContent">
-        <Input 
-        label="Search Twitter"
-        name="Search Twitter"
-        prefixIcon="search"
-        labelBgColor="#141d26"       
+        <Input
+          label="Search Twitter"
+          name="Search Twitter"
+          prefixIcon="search"
+          labelBgColor="#141d26"
         >
         </Input>
 
         <div className="trends">
-          News For You
-          {trends.map((e)=>{
-            return(
+          Web3 Resources for you
+          {trends.map((e) => {
+            return (
               <>
-              <div className="trend" onClick={() => window.open(e.link)}>
-                <img src={e.img} alt="" className="trendImg"></img>
-                <div className="trendText">{e.text}</div>
+                <div className="trend" onClick={() => window.open(e.link)}>
+                  <img src={e.img} alt="" className="trendImg"></img>
+                  <div className="trendText">{e.text}</div>
 
-              </div>
+                </div>
               </>
             )
           })}
