@@ -33,6 +33,7 @@
 
 .imgOrTweet {
     display: flex;
+    margin-top: 15px;
     justify-content: space-between;
     width: 95%;
     align-items: center;
